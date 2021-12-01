@@ -1,4 +1,6 @@
-a = 6.0
+a = 6
 b = 3
-a /= 3*b
+a=float(a)
+b=float(b)
+a /= b*3
 print(a)
